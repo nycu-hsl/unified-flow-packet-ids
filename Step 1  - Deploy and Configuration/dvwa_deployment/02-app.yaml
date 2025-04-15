@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: dvwa
+  name: dvwa
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dvwa
+  template:
+    metadata:
+      labels:
+        app: dvwa
+    spec:
+      containers:
+      - image: rpkatz/dvwa:v0.1
+        name: dvwa
+        ports:
+        - containerPort: 80
+        env:
+        - name: DATABASE_USERNAME
+          value: dvwa
+        - name: DATABASE_PASSWORD
+          value: dvwa
+        - name: DATABASE_NAME
+          value: dvwa
+        - name: DATABASE_SERVER
+          value: mariadb
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: dvwa
+  name: dvwa
+spec:
+  ports:
+  - name: "80"
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: dvwa
+  type: NodePort

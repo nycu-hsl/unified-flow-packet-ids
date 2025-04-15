@@ -1,0 +1,62 @@
+NAMESPACE       NAME                                        READY   STATUS             RESTARTS          AGE
+default         adservice-77d5cd745d-lfwlf                  1/1     Running            0                 7m9s
+default         cartservice-74f56fd4b-jfq4b                 1/1     Running            0                 7m10s
+default         checkoutservice-69c8ff664b-95p4v            1/1     Running            0                 7m10s
+default         compose-post-service-6cbf95587d-j8bzc       1/1     Running            0                 7m4s
+default         currencyservice-77654bbbdd-95tz2            1/1     Running            0                 7m10s
+default         dvwa-5cf87f8fff-wlwwk                       1/1     Running            0                 7m9s
+default         emailservice-54c7c5d9d-bjmj7                1/1     Running            0                 7m10s
+default         frontend-99684f7f8-2787n                    1/1     Running            0                 7m10s
+default         home-timeline-redis-7bdcbdc45b-h4q8n        1/1     Running            0                 7m6s
+default         home-timeline-service-9f8cc8586-w5lxm       1/1     Running            0                 7m6s
+default         jaeger-78c65b8fd4-sx6gb                     1/1     Running            0                 7m6s
+default         kali-linux-small                            1/1     Running            4 (18h ago)       15d
+default         loadgenerator-555fbdc87d-qqb42              1/1     Running            0                 7m10s
+default         mariadb-7c6d9dc48d-qndl7                    0/1     Pending            0                 7m9s
+default         media-frontend-f5c6d867c-mqnl4              1/1     Running            0                 7m6s
+default         media-memcached-5f5bfbb945-nv2sm            1/1     Running            0                 7m4s
+default         media-mongodb-5cbb49d65b-7wmvq              1/1     Running            0                 7m4s
+default         media-service-68c6fc4ff8-5fwml              1/1     Running            0                 7m6s
+default         nginx-thrift-6455574474-rm25g               1/1     Running            0                 7m3s
+default         paymentservice-bbcbdc6b6-kjxvh              1/1     Running            0                 7m10s
+default         post-storage-memcached-58d5d76557-fhxh4     1/1     Running            0                 7m5s
+default         post-storage-mongodb-6d5b574d9d-pzm8b       1/1     Running            0                 7m4s
+default         post-storage-service-6b76fbd99-5nmwg        1/1     Running            0                 7m5s
+default         productcatalogservice-68765d49b6-pj7tm      1/1     Running            0                 7m10s
+default         recommendationservice-5f8c456796-hbqtb      1/1     Running            0                 7m10s
+default         redis-cart-78746d49dc-z76n9                 1/1     Running            0                 7m9s
+default         shippingservice-5bd985c46d-l2g4g            1/1     Running            0                 7m10s
+default         social-graph-mongodb-79bffc589d-bw6dr       1/1     Running            0                 7m6s
+default         social-graph-redis-6dc48b5447-s8flt         1/1     Running            0                 7m5s
+default         social-graph-service-9df948949-j4nqh        1/1     Running            0                 7m3s
+default         text-service-7b6f8767c9-z2jrd               1/1     Running            0                 7m5s
+default         unique-id-service-5cccc69dc6-pzf4m          1/1     Running            0                 7m6s
+default         url-shorten-memcached-6765c676f7-pcwsm      1/1     Running            0                 7m6s
+default         url-shorten-mongodb-7c7758f87c-kvfdh        1/1     Running            0                 7m6s
+default         url-shorten-service-766c85bf68-l2ltj        1/1     Running            0                 7m3s
+default         user-memcached-64d99c88d5-qgrw9             1/1     Running            0                 7m3s
+default         user-mention-service-58cb87cd75-6vsrf       1/1     Running            0                 7m5s
+default         user-mongodb-7dcb8854df-c7bkb               1/1     Running            0                 7m4s
+default         user-service-bc7445c59-g4rnh                1/1     Running            0                 7m3s
+default         user-timeline-mongodb-64d945447c-zgzv5      1/1     Running            0                 7m6s
+default         user-timeline-redis-77b654db84-h9bfs        1/1     Running            0                 7m6s
+default         user-timeline-service-7dd944956b-xfg6b      1/1     Running            0                 7m6s
+ingress-nginx   ingress-nginx-admission-create-sp59m        0/1     Completed          0                 50d
+ingress-nginx   ingress-nginx-admission-patch-phk8k         0/1     Completed          0                 50d
+ingress-nginx   ingress-nginx-controller-54ffb66ff8-g5566   1/1     Running            18 (18h ago)      50d
+kube-system     calico-kube-controllers-7c845d499-z2cw7     1/1     Running            1162 (18h ago)    77d
+kube-system     calico-node-wmbzw                           1/1     Running            19 (18h ago)      77d
+kube-system     calicoctl                                   1/1     Running            20 (18h ago)      77d
+kube-system     coredns-64897985d-69jqk                     1/1     Running            26 (18h ago)      110d
+kube-system     coredns-64897985d-mrlkv                     1/1     Running            28 (18h ago)      110d
+kube-system     etcd-hsl-nycu                               1/1     Running            15 (18h ago)      54d
+kube-system     frontend-665b6b5798-lbhh4                   1/1     Running            21 (18h ago)      50d
+kube-system     kube-apiserver-hsl-nycu                     1/1     Running            919 (18h ago)     54d
+kube-system     kube-controller-manager-hsl-nycu            1/1     Running            26 (18h ago)      54d
+kube-system     kube-proxy-kv947                            1/1     Running            14 (18h ago)      54d
+kube-system     kube-scheduler-hsl-nycu                     1/1     Running            27 (18h ago)      54d
+kube-system     metrics-server-574849569f-wkf9b             1/1     Running            32 (18h ago)      77d
+kube-system     micro-apm-tnrpb                             1/1     Running            13 (18h ago)      50d
+kube-system     retransmissionservice-6598999f97-xhngv      0/1     CrashLoopBackOff   992 (72s ago)     50d
+kube-system     servicetrafficmapservice-55bfdddc4c-pkzqw   0/1     CrashLoopBackOff   987 (85s ago)     50d
+kube-system     tracetcpservice-57456b79cd-7pnbn            0/1     CrashLoopBackOff   993 (2m43s ago)   50d
